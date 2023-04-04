@@ -7,11 +7,11 @@
       </div>
       <div class="mb-3">
         <label for="txtaddress" class="form-label"><address></address></label>
-        <input type="number" name="address" [(ngModel)] = "clientForm.address" class="form-control" id="txtaddress" />
+        <input type="text" name="address" [(ngModel)] = "clientForm.address" class="form-control" id="txtaddress" />
       </div>
       <div class="mb-3">
         <label for="txttel" class="form-label">tel</label>
-        <input type="number" name="tel" [(ngModel)] = "clientForm.tel" class="form-control" id="txttel" />
+        <input type="text" name="tel" [(ngModel)] = "clientForm.tel" class="form-control" id="txttel" />
       </div>
       <button type="button" (click)="create()" class="btn btn-primary">Create</button>
     </form>
